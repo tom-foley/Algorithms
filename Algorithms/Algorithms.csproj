@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Algorithms.GoogleCodeJam.CountingSheep</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -43,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GoogleCodeJam\CountingSheep.cs" />
     <Compile Include="HackerRank\GridSearch\GridSearch.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -52,7 +56,8 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Content Include="GoogleCodeJam\README.txt" />
+    <Content Include="GoogleCodeJam\CountingSheepInput.txt" />
+    <None Include="GoogleCodeJam\README.md" />
     <Content Include="HackerRank\GridSearch\GridSearchInput.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
