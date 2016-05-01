@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Algorithms.HackerRank.GridSearch
 {
@@ -110,14 +106,17 @@ namespace Algorithms.HackerRank.GridSearch
 
             for (int i = 0; i < numTests; i++)
             {
-                //Console.WriteLine("Test {0} pattern found:\t{1}", i, patternsFound[i]);
-                if (patternsFound[i])
-                    Console.WriteLine("YES");
-                else
-                    Console.WriteLine("NO");
+                //  Comment out for HackerRank expected output  
+                Console.WriteLine("Test {0} pattern found:\t{1}", i, patternsFound[i]);
+
+                //  Uncomment for HackerRank expected output
+                //if (patternsFound[i])
+                //    Console.WriteLine("YES");
+                //else
+                //    Console.WriteLine("NO");
             }
 
-            //Console.Read();
+            Console.Read();
         }
     }
 }
