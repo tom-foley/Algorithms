@@ -46,7 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GoogleCodeJam\CountingSheep.cs" />
+    <Compile Include="GoogleCodeJam\CountingSheep\CountingSheep.cs" />
     <Compile Include="HackerRank\GridSearch\GridSearch.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -56,8 +56,8 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Content Include="GoogleCodeJam\CountingSheepInput.txt" />
-    <None Include="GoogleCodeJam\README.md" />
+    <Content Include="GoogleCodeJam\CountingSheep\CountingSheepInput.txt" />
+    <None Include="GoogleCodeJam\CountingSheep\README.md" />
     <Content Include="HackerRank\GridSearch\GridSearchInput.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
