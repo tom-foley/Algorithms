@@ -33,11 +33,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Algorithms.GoogleCodeJam.CountingSheep</StartupObject>
+    <StartupObject>Algorithms.HackerRank.ExtraLongFactorials.ExtraLongFactorials</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -47,11 +48,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="GoogleCodeJam\CountingSheep\CountingSheep.cs" />
+    <Compile Include="HackerRank\ExtraLongFactorials\ExtraLongFactorials.cs" />
     <Compile Include="HackerRank\GridSearch\GridSearch.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="HackerRank\ExtraLongFactorials\README.md" />
     <None Include="HackerRank\GridSearch\README.md" />
   </ItemGroup>
   <ItemGroup />
