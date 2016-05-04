@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Algorithms.HackerRank.ExtraLongFactorials.ExtraLongFactorials</StartupObject>
+    <StartupObject>Algorithms.HackerRank.Encryption.Encryption</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -48,12 +48,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="GoogleCodeJam\CountingSheep\CountingSheep.cs" />
+    <Compile Include="HackerRank\Encryption\Encryption.cs" />
     <Compile Include="HackerRank\ExtraLongFactorials\ExtraLongFactorials.cs" />
     <Compile Include="HackerRank\GridSearch\GridSearch.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="HackerRank\Encryption\README.md" />
     <None Include="HackerRank\ExtraLongFactorials\README.md" />
     <None Include="HackerRank\GridSearch\README.md" />
   </ItemGroup>
